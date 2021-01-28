@@ -7,7 +7,7 @@
 
     <Button
         android:id="@+id/button"
-        android:text="Start"
+        android:text="@string/start_label"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 
@@ -19,7 +19,7 @@
         <TableRow>
             <TextView
                 android:id="@+id/timer"
-                android:text="Time: "
+                android:text="@string/time_label"
                 android:paddingRight="10dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
